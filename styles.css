@@ -1,0 +1,374 @@
+/*font*/
+body {
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header area*/
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    border-bottom: 2px solid  rgb(197, 197, 197);
+    align-items: center; 
+    position: fixed; 
+    width: 100%; 
+    background-color: white; 
+    color: #808184;
+    z-index: 2; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none; 
+}
+
+nav li, a {
+    text-decoration: none; 
+    color: #808184;
+    padding: 0 10px; 
+    font-size: 20px;
+
+}
+
+nav h1 {
+    padding: none; 
+    margin: 10px; 
+    margin-top: 15px; 
+    width: 50%; 
+}
+
+
+.logo {
+     padding-top: 5px; 
+    padding-left: 75px; 
+    padding-bottom: 5px; 
+     display: flex; 
+} 
+
+.logo img {
+    width: 35px; 
+    height: 55px; 
+    padding-top: 17px; 
+}
+
+
+nav .contact {
+    padding-right: 75px; 
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+/*hero banner*/
+
+header {
+    background-image: url(images/hero_img.png); 
+    background-size: cover; 
+    width: 100%; 
+    height: 532px; 
+    background-position: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: left; 
+    padding-top: 20px; 
+}
+
+.herobox {
+    background-color: rgb(31,163,154, 0.85); 
+    width: 452px; 
+    height: 168px; 
+    color: white; 
+}
+
+
+.herobanner {
+    padding-left: 60px; 
+    padding-top: 500px; 
+}
+
+
+.herobox h2 {
+    padding-top: 35px; 
+    padding-left: 55px; 
+    font-weight: 400; 
+    font-size: 40px; 
+}
+
+/*module 1*/
+
+
+.about-container {
+    display: flex; 
+    padding-bottom: 105px; 
+    padding-top: 120px; 
+    color:  rgb(63, 66, 83);; 
+}
+
+.aboutimage {
+    margin-top: 45px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: 35%; 
+    height: 400px; 
+    padding-right: 75px; 
+}
+
+.aboutimage1 {
+    background-image: url(images/about.png);
+            width: 100%;  
+            height: 100%; 
+            margin: 0; 
+            display: inline-block; 
+            background-size: cover; 
+            background-position: top;
+            border: 1px solid rgb(197, 197, 197);
+}
+
+.abouttext {
+    width: 50%;
+    padding-left: 75px; 
+    padding-right: 105px; 
+    padding-top: 30px;
+    font-size: 20px; 
+    font-weight: 500; 
+    text-align: justify; 
+    text-justify: inter-word;
+}
+
+.about-info {
+    padding-bottom: 30px; 
+}
+
+.abouttext .btn { 
+    border-radius: 15px; 
+    background-color:  #d3aa00; 
+    font-weight: 500; 
+    font-size: 20px; 
+    padding: 5px 20px; 
+    border: solid 2px #d3aa00; 
+    text-decoration: none; 
+    color: white;
+}
+
+
+
+/*module 2*/
+
+#module2 {
+    background-color: #cccccc; 
+    margin: none; 
+    padding-top: 150px; 
+    display: flex; 
+    padding-left: 75px; 
+    padding-right: 75px; 
+    font-size: 20px; 
+    font-weight: 500; 
+    padding-bottom: 80px; 
+}
+
+#space {
+    background-color: white; 
+    padding-top: 35px; 
+}
+
+.section2headingtext {
+    background-color: rgb(31,163,154);
+    width: 550px; 
+    height: 60px; 
+    font-size: 35px; 
+    color: white; 
+    position: absolute; 
+    text-align: center; 
+    padding-top: 20px; 
+    font-weight: 400; 
+    z-index: 1; 
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+
+.Quote1 {
+    padding-left: 20px; 
+    padding-right: 55px; 
+    text-align: justify; 
+    text-justify: inter-word;
+
+}
+
+.Quote2 {
+    padding-left: 20px; 
+    padding-right: 35px; 
+    text-align: justify; 
+    text-justify: inter-word;
+}
+
+.Quote3 {
+    padding-left: 35px; 
+    padding-right: 20px; 
+    text-align: justify; 
+    text-justify: inter-word;
+}
+
+
+
+/*module 3*/
+
+.portfolio {
+    padding-left: 75px; 
+    padding-right: 75px; 
+    margin-top: 85px; 
+    margin-bottom: 75px; 
+    
+    }
+    
+    
+    .portfolio-container {
+        margin-top: 85px; 
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+    }
+    
+    
+    .portfolio-container .portfolio-item {
+        width: 30%;
+        height: 325px; 
+        margin-bottom: 40px; 
+    
+    }
+    
+    .portfolio-item-image1 {
+            background-image: url(images/Port1.png);
+            width: 100%;  
+            height: 100%; 
+            margin: 0; 
+            display: inline-block; 
+            background-size: cover; 
+            background-position: center;
+            border: 1px solid rgb(197, 197, 197);
+            }
+    
+            .portfolio-item-image2 {
+                background-image: url(images/Port2.png);
+                width: 100%;  
+                height: 100%; 
+                margin: 0; 
+                display: inline-block; 
+                background-size: cover; 
+                background-position: center;
+                border: 1px solid rgb(197, 197, 197);
+                }
+    
+                .portfolio-item-image3 {
+                    background-image: url(images/Port3.png);
+                    width: 100%;  
+                    height: 100%; 
+                    margin: 0; 
+                    display: inline-block; 
+                    background-size: cover; 
+                    background-position: left;
+                    border: 1px solid rgb(197, 197, 197);
+                    }
+
+
+
+            .portfolio .btn { 
+                border-radius: 15px; 
+                background-color:  #d3aa00; 
+                font-weight: 500; 
+                font-size: 20px; 
+                padding: 5px 20px; 
+                border: solid 2px #d3aa00; 
+                text-decoration: none; 
+                color: white;
+            }
+
+                .button  { 
+                margin-left: auto; 
+                margin-right: auto; 
+                padding-top: 20px; 
+                }
+
+    /*Contact Us module*/
+
+        h4 {
+            font-weight: 400; 
+            font-size: 40px;  
+        }
+
+        .footertext {
+        padding-right: 50px; 
+            display: inline-block; 
+
+        }
+
+        .button {
+            
+            display: inline-block; 
+
+        }
+
+
+        .contact-us {
+            background-color: rgb(31,163,154);
+            padding-left: 75px; 
+            color: white; 
+            text-align: center; 
+        }
+
+
+        .contact-us .btn { 
+            border-radius: 15px; 
+            background-color:  #d3aa00; 
+            font-weight: 500; 
+            font-size: 20px; 
+            padding: 5px 20px; 
+            border: solid 2px #d3aa00; 
+            text-decoration: none; 
+            color: white;
+        }
+
+
+    /*footer*/
+   
+
+    .footer-container { 
+        background-color: rgb(31,163,154);
+        padding-bottom: 30px; 
+        padding-top: 30px; 
+        border: 1px solid white; 
+        
+       }
+
+
+       .footer-left {
+        padding-right: 75px; 
+        font-size: 25px; 
+        color: white;
+        text-align: right; 
+      
+    }
+
+    .footer-left h4 {
+        margin-bottom: 10px; 
+        margin-top: 0; 
+        font-size: 25px; 
+    }
+
+    .footer-left p {
+        font-size: 15px; 
+        margin: 0;
+        padding-top: 0; 
+    }
+
+    .footer-left i {
+        padding-left: 5px;
+        padding-bottom: 10px;  
+     
+    }
